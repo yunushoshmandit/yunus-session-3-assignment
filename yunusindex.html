@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="yunusindex.css">
+        <script src="yunusindex.js"></script>
+    </head>
+    <body>
+        <h2>Tabs</h2>
+        <p>Click on the buttons inside the tabbed menu.</p>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+            <button class="tablinks" onclick="openTab(event, 'Profile')">Profile</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        </div>
+        <div id="Home" class="tabcontent">
+            <p>Home tab contains information about projects done by the web designer / developer.</p>
+        </div>
+        <div id="Profile" class="tabcontent">
+            <p>Profile tab contains info about the web designer / developer ownself.</p>
+        </div>
+        <div id="Contact" class="tabcontent">
+            <p>Contact tab contains contact details of the web designer /developer.</p>
+        </div>
+    </body>
+</html>
